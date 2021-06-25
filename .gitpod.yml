@@ -1,4 +1,4 @@
-
 vscode:
   extensions:
     - jebbs.plantuml
+    - esbenp.prettier-vscode
