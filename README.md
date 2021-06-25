@@ -4,7 +4,7 @@ This is an experiment to try to use GitPod to do real-time collaboration on a pl
 
 ## To use
 
-There are two ways:
+There are two ways to get started, but once you are started, open up a .puml file and press Alt-D to open up a picture preview of it.
 
 ### Way 1: If you want to do real-time collaboration
 
