@@ -4,7 +4,7 @@ This is an experiment to try to use GitPod to do real-time collaboration on a pl
 
 ## To use
 
-There are two ways
+There are two ways:
 
 ### Way 1: If you want to do real-time collaboration
 
