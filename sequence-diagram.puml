@@ -1,0 +1,22 @@
+@startuml
+actor user as user
+participant main as main
+participant transactionHandler as handler
+participant canvas as canvas
+participant canvasModel as model
+participant derivation as derivation
+
+note right of canvas : events are turned off,\nand loading data resets\nthe canvas model,\nbut create events\nare still sent for the\nnew derivations
+
+user -> main : getCanvasStateFromServer
+main -> handler : loadServerState
+handler -> canvas : loadFromDiffableJSON
+canvas -> canvas : loadData
+canvas -> derivation : Derivation.fromJSON
+derivation -> model : createDL
+model -> handler : 'create' event
+handler -> handler : addDerivationListeners
+derivation -> derivation : add rows
+derivation -> handler : 'added_line' event
+handler -> handler : addAlgebraViewListeners
+@enduml
