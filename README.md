@@ -25,3 +25,7 @@ Ask Ludlow for link to join a shared GitPod workspace. All changes made by anyon
 3. Press this button
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/davidbludlow/experiment-with-plant-uml)
+
+## Don't read below this line
+
+https://code.visualstudio.com/updates/v1_58#_open-in-vs-code-badge offered this badge [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/davidbludlow/experiment-with-plant-uml)
